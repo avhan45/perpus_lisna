@@ -69,12 +69,12 @@
                           </td>
 
                           <td>
-                          @if($data->prodi == 'TI')
-                            Teknik Informatika
-                          @elseif($data->prodi == 'SI')
-                            Sistem Informasi
+                          @if($data->prodi == 'MI')
+                            Manajemen Informatika
+                          @elseif($data->prodi == 'TK')
+                            Teknik Komputer
                           @else
-                            Kesehatan Masyarakat
+                            Komputer Akuntansi
                           @endif
                           </td>
                           <td>
