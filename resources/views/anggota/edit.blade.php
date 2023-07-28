@@ -86,9 +86,9 @@ $(document).ready(function() {
                             <div class="col-md-6">
                             <select class="form-control" name="prodi" required="">
                                 <option value=""></option>
-                                <option value="TI" {{$data->prodi === "TI" ? "selected" : ""}} >Teknik Informatika</option>
-                                <option value="SI" {{$data->prodi === "SI" ? "selected" : ""}} >Sistem Informasi</option>
-                                <option value="KM" {{$data->prodi === "KM" ? "selected" : ""}} >Kesehatan Masyarakat</option>
+                                 <option value="MI" {{$data->prodi === "MI" ? "selected" : ""}}>Manajemen Informatika</option>
+                                <option value="TK" {{$data->prodi === "TK" ? "selected" : ""}}>Teknik Komputer</option>
+                                <option value="KA" {{$data->prodi === "KA" ? "selected" : ""}}>Komputer Akuntansi</option>
                             </select>
                             </div>
                         </div>

@@ -13,7 +13,7 @@
     background: linear-gradient(#687587, #404853);
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     border-right: 1px solid rgba(255, 255, 255, 0.1);
-    color: #fff;
+    color: #000;
     padding: 8px;
     text-align: left;
     text-transform: uppercase;
@@ -27,8 +27,8 @@
     border-right: 0;
     }
     td {
-    border-right: 1px solid #c6c9cc;
-    border-bottom: 1px solid #c6c9cc;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
     padding: 8px;
     }
     td:first-child {
